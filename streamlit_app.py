@@ -11,13 +11,13 @@ st.set_page_config(
 pages = {
     "Dashboard": [
         st.Page(
-            "app/Home.py",
+            "app/home.py",
             title="Home",
             icon="🏠",
             default=True
         ),
         st.Page(
-            "app/Overview.py",
+            "app/overview.py",
             title="Overview",
             icon="📊"
         ),
